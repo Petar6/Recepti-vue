@@ -64,7 +64,7 @@ const suggestions = ref<Meal[]>([])
 const { isFavorite, toggleFavorite } = useFavorites()
 
 const fetchMeals = async () => {
-  suggestions.value = [] // ❗ sakrij prijedloge kad krene pretraga
+  suggestions.value = []
   loading.value = true
 
   try {
