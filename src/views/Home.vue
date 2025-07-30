@@ -5,7 +5,7 @@
     <div style="position: relative; display: block; width: 100%; max-width: 600px;">
       <input
         type="text"
-        v-model="searchQuery"
+        v-model="searchQuery" 
         placeholder="Upiši naziv jela..."
         @keyup.enter="fetchMeals"
         style="width: 100%;"
